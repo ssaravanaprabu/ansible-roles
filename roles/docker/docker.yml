@@ -1,0 +1,7 @@
+---
+
+- hosts: ec2-18-222-130-3.us-east-2.compute.amazonaws.com
+  become: true
+  become_user: root
+  roles: 
+    - role: docker
